@@ -13,6 +13,8 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  margin-top: -200px;
+  margin-bottom: 60px;
 }
 
 .toggle-container {
@@ -75,6 +77,10 @@ input:checked + .slider:before {
 
 .content {
   display: flex;
+  text-align: center;
+  width: 1010px;
+  margin-top: -300px;
+  margin-left: 250px;
 }
 
 .left-side {
@@ -124,8 +130,15 @@ button:hover {
 .illustration_img{
     width: 300px;
     height: 200px;
-    margin-left: 90px;
+    left: 120px;
     margin-top: -80px;
     z-index: -1;
     position: relative;
 }
+
+.changeLang{
+  position: absolute;
+  top: 220px;
+  left: 660px;
+}
+
